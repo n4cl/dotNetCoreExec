@@ -4,3 +4,5 @@ services:
     cli_app:
         build:
             context: ./
+        volumes:
+            - ./app:/app
